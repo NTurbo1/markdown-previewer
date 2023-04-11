@@ -1,0 +1,18 @@
+@import './style-variables.scss';
+@import './editor-previewer-style.css';
+
+#previewer-box {
+    width: 700px;
+    min-height: 230px;
+    box-shadow: 1px 1px 10px $boxShadowColor;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+
+    .input-display-box {
+        width: 100%;
+        flex-grow: 1;
+        background-color: $textAreaBgColor;
+        padding: 0 16px;
+    }
+}

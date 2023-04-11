@@ -1,0 +1,41 @@
+.header-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  background-color: #58a4a4;
+  box-shadow: inset 0 -1px 3px rgb(46, 46, 46);
+}
+.header-box .header-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+.header-box .size-grow-icon {
+  width: 20px;
+  height: 20px;
+}
+
+#editor-box {
+  width: 600px;
+  height: 230px;
+  box-shadow: 1px 1px 10px rgb(46, 46, 46);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.input-box {
+  width: 100%;
+  flex-grow: 1;
+}
+.input-box .input-text {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(252, 252, 252, 0.5);
+  overflow-y: scroll;
+  padding-top: 5px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  padding-right: 2px;
+}/*# sourceMappingURL=editor-style.css.map */
